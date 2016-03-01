@@ -19,7 +19,7 @@ gulp.task("babelify", function () {
         .pipe(fs.createWriteStream('dev/js/main.js'));
 });
 
-gulp.task('minify-js', function() {
+gulp.task('minify-js', ['babelify'], function() {
     return gulp.src('dev/js/*.js')
         .pipe(rename({suffix: '.min'}))
         .pipe(uglify())
