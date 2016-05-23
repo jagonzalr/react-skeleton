@@ -1,9 +1,8 @@
 # react-skeleton
-A skeleton React app with [Gulp](http://gulpjs.com/) and [Skeleton](http://getskeleton.com/).
+A skeleton [React](https://facebook.github.io/react/) app with [Redux](http://redux.js.org/) and [Gulp](http://gulpjs.com/)
 
 ## Styles
 - [Normalize CSS](https://necolas.github.io/normalize.css/)
-- [Skeleton Responsive CSS Framework](http://getskeleton.com/)
 
 ## Batteries
 - [Babelify](https://github.com/babel/babelify)
@@ -15,5 +14,5 @@ A skeleton React app with [Gulp](http://gulpjs.com/) and [Skeleton](http://getsk
 ## Usage
 - Download the zip file
 - Install dependencies ```npm install```
-- Run project ```npm start``` or ```gulp```
+- Run project ```gulp serve```
 - To build for distribution / production ```gulp dist```
